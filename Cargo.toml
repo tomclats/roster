@@ -1,0 +1,13 @@
+[workspace]
+
+[package]
+name = "roster"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "List files with their sizes and SHA-256 checksums."
+publish = false
+
+[[bin]]
+name = "roster"
+path = "src/main.rs"
